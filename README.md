@@ -5,7 +5,7 @@ Docker container for DeepSpeech with Ubuntu
 ### Docker image
 
 ```
-docker run arpabet/deepspeech go version
+docker run -it arpabet/deepspeech /bin/bash
 ```
 
 ### Build
