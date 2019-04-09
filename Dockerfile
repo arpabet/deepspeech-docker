@@ -1,5 +1,5 @@
 FROM ubuntu:18.4
-
+MAINTAINER Alex Shvid <alex@shvid.com>
 ARG DS_VER
 
 RUN apt-get install -y xz-utils && \
