@@ -1,4 +1,4 @@
-FROM shvid/ubuntu-golang:1.12.2-17c7499
+FROM ubuntu:18.4
 
 ARG DS_VER=0.4.1
 

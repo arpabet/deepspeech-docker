@@ -1,6 +1,6 @@
 # deepspeech
 
-Docker container for DeepSpeech with Ubuntu and Golang
+Docker container for DeepSpeech with Ubuntu
 
 ### Docker image
 
