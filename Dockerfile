@@ -1,4 +1,4 @@
-FROM ubuntu:18.4
+FROM ubuntu:18.04
 MAINTAINER Alex Shvid <alex@shvid.com>
 ARG DS_VER
 
