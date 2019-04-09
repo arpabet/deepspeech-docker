@@ -1,6 +1,6 @@
 FROM ubuntu:18.4
 
-ARG DS_VER=0.4.1
+ARG DS_VER
 
 RUN apt-get install -y xz-utils && \
     echo "Download DeepSpeech" && \
