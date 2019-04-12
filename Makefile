@@ -19,7 +19,7 @@ build:
 	docker build -t $(REGISTRY)/$(IMAGE):$(VERSION) --build-arg DS_VER=$(DS_VER) -f Dockerfile .
 
 run: build
-	docker run $(REGISTRY)/$(IMAGE):$(VERSION) go version
+	docker run -it $(REGISTRY)/$(IMAGE):$(VERSION) /bin/bash
 
 push: build
 	docker push ${REGISTRY}/${IMAGE}:${VERSION}
